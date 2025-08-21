@@ -1,0 +1,9 @@
+Automates سند integrity in accounting systems by detecting and removing orphaned entries in Hsb_Bod_Sanad not matched in Hsb_De_Sanad. After cleanup, it reindexes No_Sanad values across both tables to maintain sequential consistency.
+
+✅ Dynamic range detection via MIN/MAX  
+✅ Safe deletion with existence checks  
+✅ Reindexing logic preserves data continuity  
+✅ Designed for سال 1404 — easily adaptable for other fiscal years
+
+Built for real-world deployments where سند tracking matters.  
+Tested on transactional datasets with mixed integrity states.
